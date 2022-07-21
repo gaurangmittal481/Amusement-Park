@@ -1,0 +1,2319 @@
+import java.util.*;
+class PROJECT1
+{
+static String a[]={"Rollercoasters","Circlular Rides","Family Rides","Della
+RailRoad","Extreme Thrill Rides","Dark Rides","Kiddie Rides","DELLA
+ADVENTURES"};
+static int aa[]=new int[8];
+public static void dellaadventures()
+{
+System.out.println("\f");
+System.out.println("Hello and Welcome to Della Adventures");
+System.out.println("What would you like to do");
+System.out.println("Please the choose the desired option number");
+System.out.println("1.Rollercoasters");
+System.out.println("2.Circlular Rides");
+System.out.println("3.Family Rides");
+System.out.println("4.Della RailRoad");
+System.out.println("5.Extreme Thrill Rides");
+System.out.println("6.Dark Rides");
+System.out.println("7.Kiddie Rides");
+Scanner a=new Scanner(System.in);
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+System.out.println("\f");
+System.out.println("Hello, we have 3 rollercoasters to choose from.... choose
+the option number please");
+System.out.println("1.Nitro");
+System.out.println("2.Transformers: The fight ride");
+System.out.println("3.Mountain Runaway Mine car");
+int c=a.nextInt();
+System.out.println("The cost of one ticket is $30");
+System.out.println("Hello sir, how many tickets you want");
+int d=a.nextInt();
+if(d>0)
+{
+aa[0]=d*30+aa[0];
+}
+break;
+case 2:
+System.out.println("\f");
+System.out.println("Hello, we have 3 circular to choose from.... choose the
+option number please");
+System.out.println("1.Tilt-a-whirl");
+System.out.println("2.Rainbow");
+System.out.println("3.Whirly Bird");
+int f=a.nextInt();
+System.out.println("The cost of one ticket is $20");
+System.out.println("Hello sir, how many tickets you want");
+int g=a.nextInt();
+if(g>0)
+{
+aa[1]=g*20+aa[1];
+}
+break;
+case 3:
+System.out.println("\f");
+System.out.println("Hello, we have 3 kiddie rides to choose from.... choose the
+option number please");
+System.out.println("1.Bouncy House");
+System.out.println("2.Gizmo Pop");
+System.out.println("3.UFO Zone");
+int i=a.nextInt();
+System.out.println("The cost of one ticket is $40");
+System.out.println("Hello sir, how many tickets you want");
+int j=a.nextInt();
+if(j>0)
+{
+aa[2]=j*40+aa[2];
+}
+break;
+case 4:
+System.out.println("\f");
+System.out.println("Hello, we have a transportation ride to choose from....
+choose the option number please");
+System.out.println("Della railroad is the name of our transportation ride");
+System.out.println("The cost of one ticket is $10");
+System.out.println("Hello sir, how many tickets you want");
+int l=a.nextInt();
+if(l>0)
+{
+aa[3]=l*10+aa[3];
+}
+break;
+case 5:
+System.out.println("\f");
+System.out.println("Hello, we have 3 Extreme thrill rides to choose from....
+choose the option number please");
+System.out.println("1.The Slingshot");
+System.out.println("2.Thunder Ranger");
+System.out.println("3.Super Shot Drop");
+int n=a.nextInt();
+System.out.println("The cost of one ticket is $60");
+System.out.println("Hello sir, how many tickets you want");
+int o=a.nextInt();
+if(o>0)
+{
+aa[4]=o*60+aa[4];
+}
+break;
+case 6:
+System.out.println("\f");
+System.out.println("Hello, we have 3 Dark rides to choose from.... choose the
+option number please");
+System.out.println("1.Mystic Manor");
+System.out.println("2.The Revenge of the Mummy");
+System.out.println("3.Adventure through The Space");
+int q=a.nextInt();
+System.out.println("The cost of one ticket is $80");
+System.out.println("Hello sir, how many tickets you want");
+int r=a.nextInt();
+if(r>0)
+{
+aa[5]=r*80+aa[5];
+}
+break;
+case 7:
+System.out.println("\f");
+System.out.println("Hello, we have 3 Family rides to choose from.... choose the
+option number please");
+System.out.println("1.Bumper cars");
+System.out.println("2.Ferris wheel");
+System.out.println("3.Carousel");
+int t=a.nextInt();
+System.out.println("The cost of one ticket is $15");
+System.out.println("Hello sir, how many tickets you want");
+int u=a.nextInt();
+if(u>0)
+{
+aa[6]=u*15+aa[6];
+}
+break;
+default:
+System.out.println("Sorry this is an invalid option");
+}
+}
+static String b[]={"Aqua Shows","Aqua Rides","Swimming Pool with
+Slides","Kiddie Pool","Aqua Themed Rides","Dark Rides","River Cruises","OCEAN
+PARK"};
+static int bb[]=new int[8];
+public static void oceanpark()
+{
+System.out.println("\f");
+System.out.println("Hello and Welcome to Ocean Park");
+System.out.println("What would you like to do");
+System.out.println("Please the choose the desired option number");
+System.out.println("1.Aqua Shows");
+System.out.println("2.Aqua Rides");
+System.out.println("3.Swimming Pool with Slides");
+System.out.println("4.Kiddie Pool");
+System.out.println("5.Aqua Themed Rides");
+System.out.println("6.River Cruises");
+Scanner a=new Scanner(System.in);
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+System.out.println("\f");
+System.out.println("Hello, we have 3 Shows to choose from.... choose the
+option number please");
+System.out.println("1.Dolphin Show");
+System.out.println("2.Songs Of The Seas");
+System.out.println("3.Symbio: The fight of sea Monsters");
+int c=a.nextInt();
+System.out.println("The cost of one ticket is $120");
+System.out.println("Hello sir, how many tickets you want");
+int d=a.nextInt();
+if(d>0)
+{
+bb[0]=d*120+bb[0];
+}
+break;
+case 2:
+System.out.println("\f");
+System.out.println("Hello, we have a lot of Aqua Rides to choose from....
+choose the option number please");
+System.out.println("1.Floatsa");
+System.out.println("2.Loopy Woopy");
+System.out.println("3.Raftaastic");
+System.out.println("4.Soakerz");
+System.out.println("5.Splash");
+System.out.println("6.Swirl Whirl");
+System.out.println("7.The Pirate Bay");
+System.out.println("8.Twisty Turvy");
+System.out.println("9.Wacky Waves");
+System.out.println("10.Yell-O");
+System.out.println("11.Zip Zap Zoom");
+int f=a.nextInt();
+System.out.println("The cost of one ticket is $50");
+System.out.println("Hello sir, how many tickets you want");
+int g=a.nextInt();
+if(g>0)
+{
+bb[1]=g*50+bb[1];
+}
+break;
+case 3:
+System.out.println("\f");
+System.out.println("Hello, we have a great Number of Slides with This
+AmazingPool");
+System.out.println("The cost of one ticket is $20");
+System.out.println("How many tickets do you want,sir");
+int i=a.nextInt();
+if(i>0)
+{
+bb[2]=i*20+bb[2];
+}
+break;
+case 4:
+System.out.println("\f");
+System.out.println("Hello, we have a big kiddie pool with smaller slides for
+kids aged 3-9 years");
+System.out.println("The cost of one ticket is $35");
+System.out.println("Hello sir, how many tickets you want");
+int k=a.nextInt();
+if(k>0)
+{
+bb[3]=k*35+bb[3];
+}
+break;
+case 5:
+System.out.println("\f");
+System.out.println("Hello, we have 3 Aqua themed Rides to choose from....
+choose the option number please");
+System.out.println("1.Pirates of the Caribbean ");
+System.out.println("2.Jurassic Park ride");
+System.out.println("3.Grizzly River Run ");
+int m=a.nextInt();
+System.out.println("The cost of one ticket is $100");
+System.out.println("Hello sir, how many tickets you want");
+int n=a.nextInt();
+if(n>0)
+{
+bb[4]=n*3+bb[4];
+}
+break;
+case 6:
+System.out.println("\f");
+System.out.println("Hello, we have a cruise ride to choose from.... choose the
+option number please");
+System.out.println("Jungle Cruise is the name of our transportation ride");
+System.out.println("The cost of one ticket is $110");
+System.out.println("Hello sir, how many tickets you want");
+int p=a.nextInt();
+if(p>0)
+{
+bb[5]=p*110+bb[5];
+}
+break;
+default:
+System.out.println("That is an invalid option.. Please choose he right option");
+}
+}
+static String
+foodcourt[]={"Italian","Burger","Chinese","Cafes","Indian","FOODCOURT"};
+static int ffoodcourt[]=new int[6];
+public static void foodcourt()
+{
+System.out.println("\f");
+System.out.println("Hello sir, we have a wide variety of cuisines available with
+us... Please choose the desired option number");
+System.out.println("1.Italian");
+System.out.println("2.Burger");
+System.out.println("3.Chinese");
+System.out.println("4.Cafes");
+System.out.println("5.Indian");
+System.out.println("6.Go back");
+Scanner a=new Scanner(System.in);
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+italian();
+break;
+case 2:
+burger();
+break;
+case 3:
+chinese();
+break;
+case 4:
+cafes();
+break;
+case 5:
+indian();
+break;
+case 6:
+System.out.println("\f");
+break;
+default:
+System.out.println("Sorry, this option is invalid");
+}
+}
+public static void italian()
+{
+System.out.println("\f");
+System.out.println("Hey, What Do you want to eat?.. Choose the option
+number");
+System.out.println("1.Pizza");
+System.out.println("2.Pasta");
+System.out.println("3.Sides");
+System.out.println("4.Salads");
+System.out.println("5.Beverages");
+System.out.println("6.Combo Set");
+System.out.println("7.Go Back");
+Scanner a=new Scanner(System.in);
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+pizza();
+break;
+case 2:
+pasta();
+break;
+case 3:
+italiansides();
+break;
+case 4:
+italiansalad();
+break;
+case 5:
+beverages();
+break;
+case 6:
+italiancombo();
+case 7:
+foodcourt();
+break;
+}
+}
+public static void pizza()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the option number");
+System.out.println("1.Margherita");
+System.out.println("2.Farmhouse");
+System.out.println("3.Chicken Tandoori");
+System.out.println("4.Mushroom Tandoori");
+System.out.println("5.Paneer Tandoori");
+int b=a.nextInt();
+System.out.println("That would be $45 each");
+System.out.println("How many pizzas do you want?");
+int c=a.nextInt();
+ffoodcourt[0]=c*45+ffoodcourt[0];
+a.close();
+Scanner e=new Scanner(System.in);
+System.out.println("Do you want any extra topping?If yes, name the topping.");
+String f=e.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String g=e.nextLine();
+System.out.println("Do you want anything else");
+String h=e.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Italian Menu");
+System.out.println("2.Main Menu");
+int i=e.nextInt();
+if(i==1)
+{
+italian();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option number");
+}
+}
+}
+public static void pasta()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Carbonara");
+System.out.println("2.Bolognese");
+System.out.println("3.Arrabiata");
+System.out.println("4.Baked Mac n Cheese");
+int b=a.nextInt();
+System.out.println("That would be $30 each");
+System.out.println("How many portions do you want?");
+int d=a.nextInt();
+ffoodcourt[0]=d*30+ffoodcourt[0];
+a.close();
+Scanner f=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String g=f.nextLine();
+System.out.println("Do you want anything else");
+String h=f.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose the desired option number");
+System.out.println("1.Italian menu");
+System.out.println("2.Main menu");
+int i=f.nextInt();
+if(i==1)
+{
+italian();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option number");
+}
+}
+}
+public static void italiansides()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Garlic Bread");
+System.out.println("2.Cheese Garlic Bread");
+System.out.println("3.Stuffed Garlic Bread");
+System.out.println("4.Hot Wings");
+System.out.println("5.Chocolate Mousse");
+System.out.println("6.Choco Lava Cake");
+int b=a.nextInt();
+System.out.println("That would be $20 each");
+System.out.println("How many portions do you want");
+int c=a.nextInt();
+ffoodcourt[0]=c*20+ffoodcourt[0];
+a.close();
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+System.out.println("Do you want anything else");
+String g=e.nextLine();
+if(g.equalsIgnoreCase("yes"))
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Italian menu");
+System.out.println("2.Main menu");
+int h=e.nextInt();
+if(h==1)
+{
+italian();
+}
+else if(h==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option");
+}
+}
+}
+public static void italiansalad()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please Choose the desired option number");
+System.out.println("1.Ham Salad");
+System.out.println("2.Insalata Caprese");
+System.out.println("3.Israeli salad");
+System.out.println("4.Jello salad");
+int b=a.nextInt();
+System.out.println("How many portions do you want");
+int c=a.nextInt();
+ffoodcourt[0]=c*35+ffoodcourt[0];
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String d=a.nextLine();
+System.out.println("Do you want anything else");
+String e=a.nextLine();
+if(e.equalsIgnoreCase("yes"))
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Italian menu");
+System.out.println("2.Main menu");
+int f=a.nextInt();
+if(f==1)
+{
+italian();
+}
+else if(f==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option number");
+}
+}
+}
+public static void italiancombo()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Hello, What do you want for main course: pasta or pizza");
+String b=a.nextLine();
+System.out.println("How Many combos do you want?");
+int c=a.nextInt();
+for(int aa=1;aa<=c;aa++)
+{
+System.out.println("COMBO "+aa+":");
+if(b.equalsIgnoreCase("pasta"))
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Carbonara");
+System.out.println("2.Bolognese");
+System.out.println("3.Arrabiata");
+System.out.println("4.Baked Mac n Cheese");
+int d=a.nextInt();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String e=a.nextLine();
+}
+if(b.equalsIgnoreCase("pizza"))
+{
+System.out.println("Choose the option numbe r");
+System.out.println("1.Margherita");
+System.out.println("2.Farmhouse");
+System.out.println("3.Chicken Tandoori");
+System.out.println("4.Mushroom Tandoori");
+System.out.println("5.Paneer Tandoori");
+int f=a.nextInt();
+a.close();
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want any extra topping?If yes, name the
+topping.");
+String h=g.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String i=g.nextLine();
+g.close();
+}
+Scanner j=new Scanner(System.in);
+System.out.println("What do you want:sides or salads");
+String k=j.nextLine();
+if(k.equalsIgnoreCase("sides"))
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Garlic Bread");
+System.out.println("2.Cheese Garlic Bread");
+System.out.println("3.Stuffed Garlic Bread");
+System.out.println("4.Hot Wings");
+System.out.println("5.Chocolate Mousse");
+System.out.println("6.Choco Lava Cake");
+int l=j.nextInt();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String m=a.nextLine();
+}
+else if(k.equalsIgnoreCase("salads"))
+{
+System.out.println("1.Ham Salad");
+System.out.println("2.Insalata Caprese");
+System.out.println("3.Israeli salad");
+System.out.println("4.Jello salad");
+int n=j.nextInt();
+j.close();
+Scanner o=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String p=o.nextLine();
+}
+Scanner o=new Scanner(System.in);
+System.out.println("Please name the beverage you want to drink");
+String q=o.nextLine();
+o.close();
+}
+ffoodcourt[0]=50*c+ffoodcourt[0];
+Scanner o=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String r=o.nextLine();
+if(r.equalsIgnoreCase("yes"))
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Italian menu");
+System.out.println("2.Main menu");
+int s=o.nextInt();
+if(s==1)
+{
+italian();
+}
+else if(s==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option number");
+}
+}
+}
+public static void burger()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Hey, What Do you want to eat?.. Choose the option
+number");
+System.out.println("1.Bacon Cheese: 25$");
+System.out.println("2.Classic HamBurger: 20$");
+System.out.println("3.Veggie Burger: 15$");
+System.out.println("4.Beetroot Burger: 18$");
+System.out.println("5.Naughty Pig Burger: 30$");
+System.out.println("6.Mixed Leaf Salad: 15$");
+System.out.println("7.French Fries: 10$");
+System.out.println("8.Sweet Potato Fries: 14$");
+System.out.println("9.Beverages: 8$");
+System.out.println("10.Combo Set: 50$");
+int b=a.nextInt();
+if(b==10)
+{
+System.out.println("\f");
+System.out.println("\n"+"Choose a Burger, Choose the option number");
+System.out.println("1.Bacon Cheese");
+System.out.println("2.Classic HamBurger");
+System.out.println("3.Veggie Burger");
+System.out.println("4.Beetroot Burger");
+System.out.println("5.Naughty Pig Burger");
+int c=a.nextInt();
+System.out.println("\n"+"Choose a Side, Choose the option number");
+System.out.println("1.Mixed Leaf Salad");
+System.out.println("2.French Fries");
+System.out.println("3.Sweet Potato Fries");
+int d=a.nextInt();
+System.out.println("\n"+"Choose a Beverage, Choose the option number");
+System.out.println("1.Lemon Iced Tea");
+System.out.println("2.Fresh Lemonade");
+System.out.println("3.Aerated Drinks");
+int e=a.nextInt();
+a.close();
+if(e==3)
+{
+Scanner f=new Scanner(System.in);
+System.out.println("Name the aerated drink");
+String g=f.nextLine();
+}
+else if(e>3)
+{
+System.out.println("Please choose a valid option");
+}
+}
+else
+{
+if(b==1)
+{
+Scanner h=new Scanner(System.in);
+System.out.println("\n"+"How Many Burgers do you want");
+int i=h.nextInt();
+ffoodcourt[1]=i*25+ffoodcourt[1];
+System.out.println("Thus, your order is: "+i+" Bacon cheese burgers");
+}
+if(b==2)
+{
+Scanner k=new Scanner(System.in);
+System.out.println("\n"+"How Many Burgers do you want");
+int l=k.nextInt();
+ffoodcourt[1]=l*20+ffoodcourt[1];
+System.out.println("Thus, your order is: "+l+" Classic Hamburger");
+}
+if(b==3)
+{
+Scanner n=new Scanner(System.in);
+System.out.println("\n"+"How Many Burgers do you want");
+int o=n.nextInt();
+ffoodcourt[1]=o*15+ffoodcourt[1];
+System.out.println("Thus, your order is: "+o+" Veggie Burger");
+}
+if(b==4)
+{
+Scanner q=new Scanner(System.in);
+System.out.println("\n"+"How Many Burgers do you want");
+int r=q.nextInt();
+ffoodcourt[1]=r*20+ffoodcourt[1];
+System.out.println("Thus, your order is: "+r+" Beetroot Burger");
+}
+if(b==5)
+{
+Scanner t=new Scanner(System.in);
+System.out.println("\n"+"How Many Burgers do you want");
+int u=t.nextInt();
+ffoodcourt[1]=u*30+ffoodcourt[1];
+System.out.println("Thus, your order is: "+u+" Naughty pig Burger");
+}
+if(b==6)
+{
+Scanner w=new Scanner(System.in);
+System.out.println("\n"+"How Many Salads do you want/");
+int x=w.nextInt();
+ffoodcourt[1]=x*15+ffoodcourt[1];
+System.out.println("Thus, your order is: "+x+" Mixed Leaf Salad");
+}
+if(b==7)
+{
+Scanner z=new Scanner(System.in);
+System.out.println("\n"+"How Many French Fries do you want/");
+int a1=z.nextInt();
+ffoodcourt[1]=a1*10+ffoodcourt[1];
+System.out.println("Thus, your order is: "+a1+" French Fries");
+}
+if(b==8)
+{
+Scanner c1=new Scanner(System.in);
+System.out.println("\n"+"How Many Sweet potato fries do you want");
+int d1=c1.nextInt();
+ffoodcourt[1]=d1*14+ffoodcourt[1];
+System.out.println("Thus, your order is: "+d1+" Sweet potato fries");
+}
+if(b==9)
+{
+Scanner f1=new Scanner(System.in);
+System.out.println("Which Beverage you want? name it");
+String g1=f1.nextLine();
+System.out.println("\n"+"How Many "+g1+" do you want/");
+int h1=f1.nextInt();
+ffoodcourt[1]=h1*8+ffoodcourt[1];
+System.out.println("Thus, your order is: "+h1+" "+g1);
+}
+}
+Scanner j1=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String k1=j1.nextLine();
+if(k1.equalsIgnoreCase("yes"))
+{
+foodcourt();
+}
+}
+public static void chinese()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Hey, What Do you want to eat?.. Choose the option
+number");
+System.out.println("1.Starters");
+System.out.println("2.Soups");
+System.out.println("3.Salads");
+System.out.println("4.Main Course");
+System.out.println("5.Beverages");
+System.out.println("6.Desserts");
+System.out.println("7.Combo Sets");
+System.out.println("8.Go Back");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+chinesestarters();
+break;
+case 2:
+chinesesoups();
+break;
+case 3:
+chinesesalads();
+break;
+case 4:
+chinesemain();
+break;
+case 5:
+beverages();
+break;
+case 6:
+chinesedesserts();
+break;
+case 7:
+chinesecombo();
+case 8:
+foodcourt();
+default:
+System.out.println("INVALID OPTION");
+break;
+}
+}
+public static void chinesestarters()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the option number of the starter you would
+like");
+System.out.println("1.Veg/Non-veg Spring Rolls");
+System.out.println("2.Veg/Non-veg Dry manchurian");
+System.out.println("3.Chilli Paneer/Chicken/Vegetables");
+System.out.println("4.Veg/Chicken Crispy");
+System.out.println("5.Sesame toast");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+System.out.println("Enter what you want(option number):");
+System.out.println("1.Veg");
+System.out.println("2.Non-veg");
+int c=a.nextInt();
+if(c==2)
+{
+Scanner d=new Scanner(System.in);
+System.out.println("Please specify which meat do you want..");
+String e=d.nextLine();
+}
+System.out.println("How many pieces do you want?");
+System.out.println("One piece is for 2$");
+int f=a.nextInt();
+if(f>0)
+{
+Scanner g=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String h=g.nextLine();
+g.close();
+ffoodcourt[2]=f*2+ffoodcourt[2];
+}
+else
+{
+System.out.println("Please enter an appropriate quantity");
+}
+}
+Scanner h=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String i=h.nextLine();
+if(i.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int j=a.nextInt();
+if(j==1)
+{
+chinese();
+}
+else if(j==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please enter an appropriate option");
+}
+}
+}
+public static void chinesesoups()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Enter the option number");
+System.out.println("1.Veg soup");
+System.out.println("2.Non-veg soup");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("Choose the option number");
+System.out.println("1.Manchow Soup");
+System.out.println("2.Hot and sour soup");
+System.out.println("3.Sweet corn soup");
+System.out.println("4.Wonton clear soup");
+System.out.println("The cost of 1 soup is 15$");
+int c=a.nextInt();
+if(c==1)
+{
+System.out.println("How many Manchow soups do you want");
+int d=a.nextInt();
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+ffoodcourt[2]=d*15+ffoodcourt[2];
+}
+else if(c==2)
+{
+System.out.println("How many Hot and sour soups do you want");
+int f=a.nextInt();
+Scanner g=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String h=g.nextLine();
+g.close();
+ffoodcourt[2]=f*15+ffoodcourt[2];
+}
+else if(c==3)
+{
+System.out.println("How many Sweet corn soups do you want");
+int j=a.nextInt();
+Scanner k=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String l=k.nextLine();
+k.close();
+ffoodcourt[2]=j*15+ffoodcourt[2];
+}
+else if(c==4)
+{
+System.out.println("How many Wonton clear soups do you want");
+int n=a.nextInt();
+Scanner o=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String p=o.nextLine();
+o.close();
+ffoodcourt[2]=n*15+ffoodcourt[2];
+}
+else
+{
+System.out.println("Please choose a valid option");
+}
+}
+else if(b==2)
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Chicken");
+System.out.println("2.Mutton");
+System.out.println("3.Lamb");
+System.out.println("4.Seafood");
+int r=a.nextInt();
+if(r==1)
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Manchow Soup");
+System.out.println("2.Hot and sour soup");
+System.out.println("3.Sweet corn soup");
+System.out.println("4.Wonton clear soup");
+System.out.println("The cost of 1 soup is 20$");
+int s=a.nextInt();
+System.out.println("How many soups do you want");
+int t=a.nextInt();
+Scanner u=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String v=u.nextLine();
+u.close();
+ffoodcourt[2]=t*20+ffoodcourt[2];
+}
+if(r==2)
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Manchow Soup");
+System.out.println("2.Hot and sour soup");
+System.out.println("3.Sweet corn soup");
+System.out.println("4.Wonton clear soup");
+System.out.println("The cost of 1 soup is 30$");
+int x=a.nextInt();
+System.out.println("How many soups do you want");
+int y=a.nextInt();
+Scanner z=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String a1=z.nextLine();
+z.close();
+ffoodcourt[2]=y*30+ffoodcourt[2];
+}
+if(r==3)
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Manchow Soup");
+System.out.println("2.Hot and sour soup");
+System.out.println("3.Sweet corn soup");
+System.out.println("4.Wonton clear soup");
+System.out.println("The cost of 1 soup is 40$");
+int c1=a.nextInt();
+System.out.println("How many soups do you want");
+int d1=a.nextInt();
+Scanner e1=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f1=e1.nextLine();
+e1.close();
+ffoodcourt[2]=d1*40+ffoodcourt[2];
+}
+if(r==4)
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Manchow Soup");
+System.out.println("2.Hot and sour soup");
+System.out.println("3.Sweet corn soup");
+System.out.println("4.Wonton clear soup");
+System.out.println("The cost of 1 soup is 50$");
+int h1=a.nextInt();
+System.out.println("How many soups do you want");
+int i1=a.nextInt();
+Scanner j1=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String k1=j1.nextLine();
+j1.close();
+ffoodcourt[2]=i1*50+ffoodcourt[2];
+}
+else
+{
+System.out.println("Choose a valid option");
+}
+}
+Scanner m1=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String n1=m1.nextLine();
+if(n1.equalsIgnoreCase("yes"))
+{
+System.out.println("Please choose the option number");
+System.out.println("1.Chinese Menu");
+System.out.println("2.Main Menu");
+int o1=m1.nextInt();
+if(o1==1)
+{
+chinese();
+}
+else if(o1==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please choose a valid option");
+}
+}
+}
+public static void chinesesalads()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the option number of the salad..");
+System.out.println("1.Chinese chicken salad");
+System.out.println("2.Special chinese veggies");
+System.out.println("3.Soya beef diced");
+System.out.println("4.Schezwan pork salad");
+int b=a.nextInt();
+System.out.println("The cost of one salad is $12");
+System.out.println("How many salads do you want?");
+int c=a.nextInt();
+Scanner d=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String e=d.nextLine();
+ffoodcourt[2]=12*c+ffoodcourt[2];
+System.out.println("Do you want anything else");
+String g=d.nextLine();
+if(g.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int h=d.nextInt();
+if(h==1)
+{
+chinese();
+}
+else if(h==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please enter a proper option");
+}
+}
+d.close();
+}
+public static void rice()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("1.Veg");
+System.out.println("2.Non-veg");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Fried Rice");
+System.out.println("2.Pot rice");
+System.out.println("3.Peking rice");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int c=a.nextInt();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int d=a.nextInt();
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+ffoodcourt[2]=d*12+ffoodcourt[2];
+e.close();
+System.out.println("Thank you for dining here");
+}
+else if(b==2)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Fried Rice");
+System.out.println("2.Pot rice");
+System.out.println("3.Peking rice");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int f=a.nextInt();
+Scanner g=new Scanner(System.in);
+System.out.println("Which meat do you want?");
+String h=g.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String i=g.nextLine();
+g.close();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int j=a.nextInt();
+ffoodcourt[2]=j*12+ffoodcourt[2];
+System.out.println("Thank you for dining here");
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+Scanner l=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String m=l.nextLine();
+l.close();
+if(m.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int n=a.nextInt();
+if(n==1)
+{
+chinese();
+}
+else if(n==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please enter a proper option");
+}
+}
+}
+public static void noodles()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("1.Veg");
+System.out.println("2.Non-veg");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Pad Thai noodles");
+System.out.println("2.Pot noodles");
+System.out.println("3.Peking noodles");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int c=a.nextInt();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int d=a.nextInt();
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+ffoodcourt[2]=d*12+ffoodcourt[2];
+System.out.println("Thank you for dining here");
+}
+else if(b==2)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Pad Thai noodles");
+System.out.println("2.Pot noodles");
+System.out.println("3.Peking noodles");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int h=a.nextInt();
+Scanner i=new Scanner(System.in);
+System.out.println("Which meat do you want?");
+String j=i.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String k=i.nextLine();
+i.close();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int l=a.nextInt();
+ffoodcourt[2]=l*12+ffoodcourt[2];;
+System.out.println("Thank you for dining here");
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+Scanner n=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String o=n.nextLine();
+n.close();
+if(o.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int j=a.nextInt();
+if(j==1)
+{
+chinese();
+}
+else if(j==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please enter a proper option");
+}
+}
+}
+public static void gravy()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Veg");
+System.out.println("2.Non-Veg");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("1.Manchurian");
+System.out.println("2.Black Bean sauce");
+System.out.println("3.Hunan sauce");
+System.out.println("4.Black pepper sauce");
+System.out.println("5.Red Thai curry");
+System.out.println("6.Green Thai curry");
+int c=a.nextInt();
+Scanner d=new Scanner(System.in);
+System.out.println("Please specify which vegetables do you want?");
+String e=d.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=d.nextLine();
+d.close();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int g=a.nextInt();
+ffoodcourt[2]=g*12+ffoodcourt[2];
+}
+else if(b==2)
+{
+System.out.println("1.Manchurian");
+System.out.println("2.Black Bean sauce");
+System.out.println("3.Hunan sauce");
+System.out.println("4.Black pepper sauce");
+System.out.println("5.Red Thai curry");
+System.out.println("6.Green Thai curry");
+int i=a.nextInt();
+Scanner j=new Scanner(System.in);
+System.out.println("Please specify which meat do you want?");
+String k=j.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String l=j.nextLine();
+j.close();
+System.out.println("The cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int m=a.nextInt();
+ffoodcourt[2]=m*12+ffoodcourt[2];
+}
+else
+{
+System.out.println("Please select an appropriate option");
+}
+Scanner o=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String p=o.nextLine();
+o.close();
+if(p.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int q=a.nextInt();
+if(q==1)
+{
+chinese();
+}
+else if(q==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Please enter a proper option");
+}
+}
+}
+public static void chinesemain()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please enter the option number");
+System.out.println("1.Rice");
+System.out.println("2.Noodles");
+System.out.println("3.Gravy");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+rice();
+break;
+case 2:
+noodles();
+break;
+case 3:
+gravy();
+break;
+}
+}
+public static void chinesedesserts()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the option number of the dessert..");
+System.out.println("1.Egg Custard Tarts");
+System.out.println("2.Almond Jelly");
+System.out.println("3.Coconut Bar");
+System.out.println("4.Fortune Cookies");
+System.out.println("5.Black Sesame Roll");
+int b=a.nextInt();
+System.out.println("The cost of one piece is $20");
+System.out.println("How many pieces do you want?");
+int d=a.nextInt();
+ffoodcourt[2]=d*20+ffoodcourt[2];
+Scanner f=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String g=f.nextLine();
+System.out.println("Do you want anything else");
+String h=f.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("PLease choose the option number");
+System.out.println("1.Chinese menu");
+System.out.println("2.Main menu");
+int i=f.nextInt();
+if(i==1)
+{
+chinese();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("Choose a valid option");
+}
+}
+}
+public static void chinesecombo()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("How many combos do you want?");
+int aa=a.nextInt();
+System.out.println("What do you want: rice or noodles");
+String b=a.nextLine();
+for(int i=1;i<=aa;i++)
+{
+if(b.equalsIgnoreCase("rice"))
+{
+System.out.println("1.Veg");
+System.out.println("2.Non-veg");
+int c=a.nextInt();
+if(c==1)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Fried Rice");
+System.out.println("2.Pot rice");
+System.out.println("3.Peking rice");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int d=a.nextInt();
+}
+else if(c==2)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Fried Rice");
+System.out.println("2.Pot rice");
+System.out.println("3.Peking rice");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int d=a.nextInt();
+Scanner e=new Scanner(System.in);
+System.out.println("Which meat do you want?");
+String f=e.nextLine();
+e.close();
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+if(b.equalsIgnoreCase("noodles"))
+{
+System.out.println("1.Veg");
+System.out.println("2.Non-veg");
+int f=a.nextInt();
+if(f==1)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Pad Thai noodles");
+System.out.println("2.Pot noodles");
+System.out.println("3.Peking noodles");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int g=a.nextInt();
+Scanner ii=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and
+if no,just put a dash and press enter");
+String j=ii.nextLine();
+ii.close();
+}
+else if(f==2)
+{
+System.out.println("Choose the desired option");
+System.out.println("1.Pad Thai noodles");
+System.out.println("2.Pot noodles");
+System.out.println("3.Peking noodles");
+System.out.println("4.Triple szechuan (rice and noodles)");
+int h=a.nextInt();
+Scanner ii=new Scanner(System.in);
+System.out.println("Which meat do you want?");
+String j=ii.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and
+if no,just put a dash and press enter");
+String k=ii.nextLine();
+ii.close();
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+}
+}
+System.out.println("Which gravy do you want");
+System.out.println("Choose the desired option number");
+System.out.println("1.Veg");
+System.out.println("2.Non-Veg");
+int l=a.nextInt();
+if(l==1)
+{
+System.out.println("1.Manchurian");
+System.out.println("2.Black Bean sauce");
+System.out.println("3.Hunan sauce");
+System.out.println("4.Black pepper sauce");
+System.out.println("5.Red Thai curry");
+System.out.println("6.Green Thai curry");
+int m=a.nextInt();
+Scanner n=new Scanner(System.in);
+System.out.println("Please specify which vegetables do you want?");
+String o=n.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String p=n.nextLine();
+n.close();
+}
+else if(l==2)
+{
+System.out.println("1.Manchurian");
+System.out.println("2.Black Bean sauce");
+System.out.println("3.Hunan sauce");
+System.out.println("4.Black pepper sauce");
+System.out.println("5.Red Thai curry");
+System.out.println("6.Green Thai curry");
+int q=a.nextInt();
+Scanner r=new Scanner(System.in);
+System.out.println("Please specify which meat do you want?");
+String s=r.nextLine();
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String t=r.nextLine();
+r.close();
+}
+else
+{
+System.out.println("Please select an appropriate option");
+}
+Scanner s=new Scanner(System.in);
+System.out.println("Do you want: beverage or dessert");
+String t=s.nextLine();
+s.close();
+if(t.equalsIgnoreCase("dessert"))
+{
+System.out.println("Please choose the option number of the dessert..");
+System.out.println("1.Egg Custard Tarts");
+System.out.println("2.Almond Jelly");
+System.out.println("3.Coconut Bar");
+System.out.println("4.Fortune Cookies");
+System.out.println("5.Black Sesame Roll");
+int u=a.nextInt();
+}
+else if(t.equalsIgnoreCase("beverage"))
+{
+Scanner v=new Scanner(System.in);
+System.out.println("Please name the beverage you want to drink");
+String w=v.nextLine();
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+}
+ffoodcourt[2]=128*aa+ffoodcourt[2];
+System.out.println("Thank you for dining here");
+}
+public static void beverages()
+{
+System.out.println("\f");
+Scanner a=new Scanner(System.in);
+System.out.println("Please name the beverage you want to drink");
+String b=a.nextLine();
+System.out.println("The cost of one glass is $10");
+System.out.println("How many glasses do you want?");
+int c=a.nextInt();
+ffoodcourt[2]=c*10+ffoodcourt[2];
+Scanner d=new Scanner(System.in);
+System.out.println("Do you want anything else");
+String e=a.nextLine();
+if(e.equalsIgnoreCase("yes"))
+{
+foodcourt();
+}
+}
+public static void coffee()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Espresso");
+System.out.println("2.Cappuccino");
+System.out.println("3.Frappuccino");
+System.out.println("4.Nescafe");
+int b=a.nextInt();
+System.out.println("How many cups do you want");
+System.out.println("The cost of one cup is $12");
+int c=a.nextInt();
+ffoodcourt[3]=c*12+ffoodcourt[3];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for drinking here"+"\n");
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+cafes();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+}
+}
+}
+public static void tea()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Darjeeling");
+System.out.println("2.Green Tea");
+System.out.println("3.Iced Tea");
+System.out.println("4.Tea Latte");
+int b=a.nextInt();
+System.out.println("How many cups do you want");
+System.out.println("The cost of one cup is $10");
+int c=a.nextInt();
+ffoodcourt[3]=c*10+ffoodcourt[3];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for drinking here");
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+cafes();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+}
+}
+}
+public static void cookies()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Choco Chip");
+System.out.println("2.Coffee Walnut");
+System.out.println("3.Dark chocolate");
+System.out.println("4.Soft bakes");
+int b=a.nextInt();
+System.out.println("The cost of 1 cookie is $1");
+System.out.println("How many cookies do you want");
+int c=a.nextInt();
+ffoodcourt[3]=c+ffoodcourt[3];
+System.out.println("Thank you for eating here");
+Scanner d=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String e=d.nextLine();
+if(e.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int f=d.nextInt();
+if(f==1)
+{
+cafes();
+}
+else if(f==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void snacks()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Cheese Chilly toast");
+System.out.println("2.Mexican Maxi");
+System.out.println("3.Sandwich");
+System.out.println("4.Nachos with cheese");
+int b=a.nextInt();
+System.out.println("The cost of one portion(2 pieces) is $7");
+System.out.println("How many portions do you want?");
+int c=a.nextInt();
+ffoodcourt[3]=c*7+ffoodcourt[3];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for eating here");
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+cafes();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void chocolate()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Hot chocolate");
+System.out.println("2.Dark chocolate bar");
+System.out.println("3.Milk chocolate bar");
+System.out.println("4.White chocolate bar");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("The cost of one cup is $2");
+System.out.println("How many cups do you want?");
+int c=a.nextInt();
+ffoodcourt[3]=c*2+ffoodcourt[3];
+System.out.println("Thank you for dining here");
+}
+else if(b==2 || b==3 || b==4)
+{
+System.out.println("The cost of one bar is $2");
+System.out.println("How many bars do you want?");
+int c=a.nextInt();
+ffoodcourt[3]=c*2+ffoodcourt[3];
+System.out.println("Thank you for dining here");
+}
+else
+{
+System.out.println("Choose an appropriate option");
+}
+Scanner e=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String f=e.nextLine();
+if(f.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int g=e.nextInt();
+if(g==1)
+{
+cafes();
+}
+else if(g==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID OPTION");
+}
+}
+}
+public static void dessert()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Blueberry Cheesecake");
+System.out.println("2.Dark chocolate mud cake");
+System.out.println("3.Pineapple quiche");
+System.out.println("4.Strawberry cupcake");
+int b=a.nextInt();
+System.out.println("The cost of 1 piece is $3");
+System.out.println("How many pieces do you want?");
+int c=a.nextInt();
+ffoodcourt[3]=c*3+ffoodcourt[3];
+System.out.println("Thank you for eating here");
+Scanner e=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String f=e.nextLine();
+if(f.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int g=e.nextInt();
+if(g==1)
+{
+cafes();
+}
+else if(g==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void cafes()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Coffee");
+System.out.println("2.Tea");
+System.out.println("3.Cookies");
+System.out.println("4.Snacks");
+System.out.println("5.Chocolates");
+System.out.println("6.Desserts");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+coffee();
+break;
+case 2:
+tea();
+break;
+case 3:
+cookies();
+break;
+case 4:
+snacks();
+break;
+case 5:
+chocolate();
+break;
+case 6:
+dessert();
+break;
+default:
+}
+}
+public static void indian()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Choose the desired option number");
+System.out.println("1.Starters");
+System.out.println("2.Soups");
+System.out.println("3.Breakfast");
+System.out.println("4.Main course");
+System.out.println("5.Desserts");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+indianstarters();
+break;
+case 2:
+indiansoups();
+break;
+case 3:
+indianbreakfast();
+break;
+case 4:
+indianmain();
+break;
+case 5:
+indiandessert();
+break;
+default:
+}
+}
+public static void indianstarters()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Veg");
+System.out.println("2.Non-Veg");
+int b=a.nextInt();
+if(b==1)
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Paneer Tikka");
+System.out.println("2.Seekh Kebab(Veg)");
+System.out.println("3.Hara Bhara Kebab");
+System.out.println("4.Tandoori Gobi");
+System.out.println("5.Mushroom Masala");
+int c=a.nextInt();
+System.out.println("Cost of one portion is $12");
+System.out.println("How many portions do you want?");
+int d=a.nextInt();
+ffoodcourt[4]=d*12+ffoodcourt[4];
+Scanner f=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String g=f.nextLine();
+f.close();
+System.out.println("Thank you for dining here");
+}
+else if(b==2)
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Chicken Tikka");
+System.out.println("2.Seekh Kebab(Mutton)");
+System.out.println("3.Hara Bhara Kebab");
+System.out.println("4.Tandoori Fish");
+System.out.println("5.Prawns Masala");
+int h=a.nextInt();
+System.out.println("Cost of one portion is $15");
+System.out.println("How many portions do you want?");
+int i=a.nextInt();
+ffoodcourt[4]=i*15+ffoodcourt[4];
+Scanner k=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String l=k.nextLine();
+k.close();
+System.out.println("Thank you for dining here");
+}
+else
+{
+System.out.println("Please choose an appropriate option");
+}
+Scanner l=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String m=l.nextLine();
+if(m.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Cafe menu");
+System.out.println("2.Main Food Court menu");
+int n=l.nextInt();
+if(n==1)
+{
+cafes();
+}
+else if(n==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void indiansoups()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Dal shorba");
+System.out.println("2.Tomato soup");
+int b=a.nextInt();
+System.out.println("Cost of one portion is $10");
+System.out.println("How many portions do you want?");
+int c=a.nextInt();
+ffoodcourt[4]=c*10+ffoodcourt[4];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for dining here");
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Indian menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+indian();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void indianbreakfast()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Dosa");
+System.out.println("2.Idli");
+System.out.println("3.Upma");
+System.out.println("4.Poha");
+int b=a.nextInt();
+System.out.println("Cost of one portion is $8");
+System.out.println("How many portions do you want?");
+int c=a.nextInt();
+ffoodcourt[4]=c*8+ffoodcourt[4];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for dining here");
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Indian menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+indian();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+System.out.println("INVALID CHOICE");
+}
+}
+}
+public static void indianmain()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Indian Breads");
+System.out.println("2.Curries");
+System.out.println("3.Dal");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+System.out.println("Please choose the desired option number");
+System.out.println("1.Tandoori roti");
+System.out.println("2.Roomali roti");
+System.out.println("3.Naan");
+System.out.println("4.Paratha");
+System.out.println("5.Chapati");
+int c=a.nextInt();
+System.out.println("Cost of one piece is $3");
+System.out.println("How many rotis do you want?");
+int d=a.nextInt();
+ffoodcourt[4]=d*3+ffoodcourt[4];
+System.out.println("Thank you for dining here");
+break;
+case 3:
+System.out.println("Cost of one portion is $8");
+System.out.println("How many portions do you want?");
+int cc=a.nextInt();
+ffoodcourt[4]=cc*8+ffoodcourt[4];
+Scanner e=new Scanner(System.in);
+System.out.println("Any Special Request, if yes then directly type it and if
+no,just put a dash and press enter");
+String f=e.nextLine();
+e.close();
+System.out.println("Thank you for dining here");
+break;
+case 2:
+System.out.println("Please choose the desired option number");
+System.out.println("1.Veg Tandoori");
+System.out.println("2.Matar Paneer");
+System.out.println("3.Paneer Tikka Masala");
+System.out.println("4.Seekh kebab Masala");
+System.out.println("5.Veg Kadai");
+int dd=a.nextInt();
+System.out.println("Cost of one piece is $3");
+System.out.println("How many portion of curry do you want?");
+int ee=a.nextInt();
+ffoodcourt[4]=ee*3+ffoodcourt[4];
+System.out.println("Thank you for dining here");
+break;
+}
+Scanner g=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String h=g.nextLine();
+if(h.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Indian menu");
+System.out.println("2.Main Food Court menu");
+int i=g.nextInt();
+if(i==1)
+{
+indian();
+}
+else if(i==2)
+{
+foodcourt();
+}
+else
+{
+}
+}
+}
+public static void indiandessert()
+{
+Scanner a=new Scanner(System.in);
+System.out.println("Please choose the desired option number");
+System.out.println("1.Gulab Jamun");
+System.out.println("2.Jalebi");
+System.out.println("3.Rasogulla");
+System.out.println("4.Ras Malai");
+int b=a.nextInt();
+System.out.println("Cost of 1 piece is $12");
+System.out.println("How many pieces do you want?");
+int c=a.nextInt();
+ffoodcourt[4]=c*12+ffoodcourt[4];
+System.out.println("Thank you for dining here");
+Scanner e=new Scanner(System.in);
+System.out.println("Do you want anything else?");
+String f=e.nextLine();
+if(f.equalsIgnoreCase("yes"))
+{
+System.out.println("Choose desired option number");
+System.out.println("1.Indian menu");
+System.out.println("2.Main Food Court menu");
+int g=e.nextInt();
+if(g==1)
+{
+indian();
+}
+else if(g==2)
+{
+foodcourt();
+}
+else
+{
+}
+}
+}
+public static void main()
+{
+Scanner a=new Scanner(System.in);
+System.out.println(" DDDDDDDDDDD EEEEEEEEEEEE L L
+L L A");
+System.out.println(" D DDDDDDD D E EEEEEEEEEE L L
+L L A A A");
+System.out.println(" D D D D E E L L L L A
+A A A");
+System.out.println(" D D D D E EEEEEE L L L L
+A A A A");
+System.out.println(" D D D D EEEEEEEE L L L L
+A A A A");
+System.out.println(" D D D D E EEEEEE L L L L
+A AAAAAAAA A");
+System.out.println(" D D D D E E L L L L A
+AAAAAAAA A");
+System.out.println(" D D D D E E L L L L A A
+A A");
+System.out.println(" D DDDDDD D E EEEEEEEEEE L
+LLLLLLLLL L LLLLLLLLL A A A A");
+System.out.println(" DDDDDDDDDD EEEEEEEEEEEE
+LLLLLLLLLLL LLLLLLLLLLL A A A A");
+System.out.print("\n"+"\n"+"\n");
+System.out.println("
+WELCOME!WELCOME!WELCOME");
+System.out.println(" TO THE WORLD OF
+ADVENTURES");
+System.out.println("Please choose the desired option number");
+System.out.println("1.Go to Della Adventures");
+System.out.println("2.Go to Ocean Park");
+System.out.println("3.Go to the Food Court");
+int b=a.nextInt();
+switch(b)
+{
+case 1:
+dellaadventures();
+break;
+case 2:
+oceanpark();
+break;
+case 3:
+foodcourt();
+break;
+default:
+System.out.println("Please choose the appropriate option number");
+}
+for(int i=-1;i<0;i--)
+{
+System.out.println("Please choose the desired option number");
+System.out.println("1.Go to Della Adventures");
+System.out.println("2.Go to Ocean Park");
+System.out.println("3.Go to the Food Court");
+System.out.println("4.Exit");
+int c=a.nextInt();
+switch(c)
+{
+case 1:
+dellaadventures();
+break;
+case 2:
+oceanpark();
+break;
+case 3:
+foodcourt();
+break;
+case 4:
+bill();
+break;
+default:
+System.out.println("Please choose the appropriate option number");
+}
+}
+}
+public static void bill()
+{
+System.out.println("\f");
+System.out.println("DELLA ADVENTURES BILL");
+if(aa[0]>0)
+{
+System.out.println(a[0]+"\t$"+aa[0]);
+}
+if(aa[1]>0)
+{
+System.out.println(a[1]+"\t$"+aa[1]);
+}
+if(aa[2]>0)
+{
+System.out.println(a[2]+"\t$"+aa[2]);
+}
+if(aa[3]>0)
+{
+System.out.println(a[3]+"\t$"+aa[3]);
+}
+if(aa[4]>0)
+{
+System.out.println(a[4]+"\t$"+aa[4]);
+}
+if(aa[5]>0)
+{
+System.out.println(a[5]+"\t$"+aa[5]);
+}
+if(aa[6]>0)
+{
+System.out.println(a[6]+"\t$"+aa[6]);
+}
+aa[7]=aa[0]+aa[1]+aa[2]+aa[3]+aa[4]+aa[5]+aa[6];
+System.out.println("TOTAL"+"\t$"+aa[7]);
+System.out.println("-----------------------------------------------------------------------------
+------");
+System.out.println("-----------------------------------------------------------------------------
+------");
+System.out.println("OCEAN PARK BILL");
+if(bb[0]>0)
+{
+System.out.println(b[0]+"\t$"+bb[0]);
+}
+if(bb[1]>0)
+{
+System.out.println(b[1]+"\t$"+bb[1]);
+}
+if(bb[2]>0)
+{
+System.out.println(b[2]+"\t$"+bb[2]);
+}
+if(bb[3]>0)
+{
+System.out.println(b[3]+"\t$"+bb[3]);
+}
+if(bb[4]>0)
+{
+System.out.println(b[4]+"\t$"+bb[4]);
+}
+if(bb[5]>0)
+{
+System.out.println(b[5]+"\t$"+bb[5]);
+}
+if(bb[6]>0)
+{
+System.out.println(b[6]+"\t$"+bb[6]);
+}
+bb[7]=bb[0]+bb[1]+bb[2]+bb[3]+bb[4]+bb[5]+bb[6];
+System.out.println("TOTAL"+"\t$"+bb[7]);
+System.out.println("-----------------------------------------------------------------------------
+------");
+System.out.println("-----------------------------------------------------------------------------
+------");
+System.out.println("FOODCOURT");
+if(ffoodcourt[0]>0)
+{
+System.out.println(foodcourt[0]+"\t$"+ffoodcourt[0]);
+}
+if(ffoodcourt[1]>0)
+{
+System.out.println(foodcourt[1]+"\t$"+ffoodcourt[1]);
+}
+if(ffoodcourt[2]>0)
+{
+System.out.println(foodcourt[2]+"\t$"+ffoodcourt[2]);
+}
+if(ffoodcourt[3]>0)
+{
+System.out.println(foodcourt[3]+"\t$"+ffoodcourt[3]);
+}
+if(ffoodcourt[4]>0)
+{
+System.out.println(foodcourt[4]+"\t$"+ffoodcourt[4]);
+}
+ffoodcourt[5]=ffoodcourt[0]+ffoodcourt[1]+ffoodcourt[2]+ffoodcourt[3]+ffoodcour
+t[4];
+System.out.println("TOTAL"+"\t$"+ffoodcourt[5]);
+long total=aa[7]+bb[7]+ffoodcourt[5];
+System.out.println("-----------------------------------------------------------------------------
+------");
+System.out.println("-----------------------------------------------------------------------------
+------");
+Scanner c=new Scanner(System.in);
+System.out.println("TOTAL BILL");
+System.out.println(a[7]+"\t"+aa[7]);
+System.out.println(b[7]+"\t"+bb[7]);
+System.out.println(foodcourt[5]+"\t"+ffoodcourt[5]);
+System.out.println("Will that be cash or credit card?");
+String z=c.nextLine();
+if(z.equalsIgnoreCase("cash"))
+{
+System.out.println("Thank you for registering");
+System.out.println("Wait for a while....");
+try
+{
+Thread.sleep(1000);
+{
+System.out.println("Thank you for visiting");
+}
+}
+catch(InterruptedException ex)
+{
+Thread.currentThread().interrupt();
+}
+System.exit(0);
+}
+else if(z.equalsIgnoreCase("credit card") || z.equalsIgnoreCase("creditcard"))
+{
+System.out.println("Enter the bank account details:");
+System.out.println("Credit card Number:");
+long a1=c.nextLong();
+System.out.println("Enter the CVC code:");
+long b1=c.nextLong();
+System.out.println("Thank you for registering");
+System.out.println("Wait for a while....");
+try
+{
+Thread.sleep(1000);
+{
+System.out.println("Thank you for visiting");
+}
+}
+catch(InterruptedException ex)
+{
+Thread.currentThread().interrupt();
+}
+}
+System.exit(0);
+}
+}
