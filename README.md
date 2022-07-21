@@ -1,5 +1,8 @@
 # Amusement-Park
-Internal system framework of a software portal to be used in an amusement park
-This program is about an amusement park where the user can select from a variety of rides, aqua rides, shows and many other things.
-It also consists of a restaurant where the user can choose from a variety of cuisines and several options amongst them including combo sets and beverages.
-It also shows a bill when the user then chooses if he wishes to pay by cash or by credit card.
+My program is about an amusement park named “DELLA”.
+It has a few main modules about the two different parks, one waterpark named Ocean Park and the other a general amusement park named Della Adventures.
+It has a food court to eat with various kinds of cuisines.
+In my program, I have brought a whole amusement park to life.
+It has a code to buy tickets for various rides, one part to buy eateries at the food court to quench the thirst and hunger of the customers and also a part for the
+membership where the customers pay the membership fee according to the kind of membership they wish to acquire.
+It is a fun loving and a user-friendly program that is quite interesting and fun to use.
